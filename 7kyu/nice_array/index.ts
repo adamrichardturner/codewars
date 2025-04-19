@@ -3,7 +3,7 @@ export function isNice(arr: number[]): boolean {
     A Nice array is defined to be an array where for 
     every value n in the array, there is also an element 
     n - 1 or n + 1 in the array.
-    */
+  */
   if (arr.length === 0) {
     return false;
   }
